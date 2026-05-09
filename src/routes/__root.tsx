@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Ethicquest result" },
+      { name: "description", content: "EthicsQuest is a mobile app designed to teach children ethics through engaging, cartoon-style adventures." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Ethicquest result" },
+      { property: "og:description", content: "EthicsQuest is a mobile app designed to teach children ethics through engaging, cartoon-style adventures." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Ethicquest result" },
+      { name: "twitter:description", content: "EthicsQuest is a mobile app designed to teach children ethics through engaging, cartoon-style adventures." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5b23b997-8d1c-4b8d-9a41-7a8709ff34bf/id-preview-abf0fe2e--50e0e59a-ba89-424a-87c7-b70f1d50872a.lovable.app-1778321578151.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5b23b997-8d1c-4b8d-9a41-7a8709ff34bf/id-preview-abf0fe2e--50e0e59a-ba89-424a-87c7-b70f1d50872a.lovable.app-1778321578151.png" },
     ],
     links: [
       {
