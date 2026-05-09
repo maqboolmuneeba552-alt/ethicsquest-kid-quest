@@ -166,7 +166,6 @@
   --font-sans: "Nunito", system-ui, sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;700;800&display=swap");
 
 body {
   font-family: var(--font-sans);
